@@ -1,158 +1,184 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	text-decoration: none;
 	list-style: none;
 }
-html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+
+html,
+body {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
-.myname{
-	font-family: 'Monoton',cursive;
+
+.myname {
+	font-family: 'Monoton', cursive;
 	font-weight: 700;
 	font-size: 36px;
 	color: #01a9b4;
 }
-.surname{
+
+.surname {
 	font-family: 'Lobster', cursive;
 	font-weight: 700;
 	font-size: 38px;
 	color: #848ccf;
 }
-.myname:hover{
+
+.myname:hover {
 	color: #848ccf;
 }
-nav{
+
+nav {
 	height: 66px;
 	background: #1f2833 !important;
 }
-nav ul li a{
+
+nav ul li a {
 	color: #fff !important;
 	margin: 10px;
 }
-.active{
+
+.active {
 	color: aqua;
 	border-left: 8px solid aqua;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
 	background-color: aqua;
 	color: black !important;
 	border-radius: 20px;
 	transition: all 0.8s ease;
 }
-#navs{
+
+#navs {
 	transition: all 0.5s ease;
 }
-.profile-pic{
+
+.profile-pic {
 	width: 280px;
 	height: 280px;
 	position: absolute;
 	top: 120px;
 	left: 200px;
 }
-.hero-image{
+
+.hero-image {
 	width: 100%;
 	height: 530px;
 	background-color: #1f2833;
 }
 
-.hello{
+.hello {
 	font-family: 'Pacifico', cursive;
 	position: absolute;
 	top: 100px;
 	left: 700px;
 	opacity: 70%;
 	color: aquamarine;
-	font-size:50px;
+	font-size: 50px;
 	line-height: 113px;
 	font-weight: 700;
 }
-.hello::after{
+
+.hello::after {
 	content: '|';
 	display: inline;
-	-webkit-animation:blink 1s infinite;
-	-moz-animation:blink 1s infinite;
-	animation:blink 1s infinite;
+	-webkit-animation: blink 1s infinite;
+	-moz-animation: blink 1s infinite;
+	animation: blink 1s infinite;
 }
-.hello-name{
+
+.hello-name {
 	font-family: 'Lobster', cursive;
 	position: absolute;
 	top: 200px;
 	left: 700px;
 	word-spacing: 15px;
 	color: aquamarine;
-	font-size:80px;
+	font-size: 80px;
 	line-height: 113px;
 	font-weight: 700;
 }
-.click{
+
+.click {
 	position: absolute;
 	top: 350px;
 	left: 1000px;
-  	padding: 19px 22px;
-  	transition: all 0.2s ease;
-	
-}
-.cta:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: #d92027;
-  width: 56px;
-  height: 56px;
-  transition: all 0.3s ease;
-}
-.cta span {
-  position: relative;
-  font-size: 20px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  vertical-align: middle;
-}
-.cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #fff;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.cta:hover:before {
-  width: 100%;
-  background: #5c2a9d;
-}
-.cta:hover svg {
-  transform: translateX(0);
-}
-.cta:active {
-  transform: scale(0.96);
+	padding: 19px 22px;
+	transition: all 0.2s ease;
+
 }
 
-.font-a{
+.cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 28px;
+	background: #d92027;
+	width: 56px;
+	height: 56px;
+	transition: all 0.3s ease;
+}
+
+.cta span {
+	position: relative;
+	font-size: 20px;
+	line-height: 18px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #fff;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+	width: 100%;
+	background: #5c2a9d;
+}
+
+.cta:hover svg {
+	transform: translateX(0);
+}
+
+.cta:active {
+	transform: scale(0.96);
+}
+
+.font-a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 }
-.myintro{
+
+.myintro {
 	border-radius: 7px;
 	letter-spacing: 0.3px;
 	line-height: 25px;
 	font-size: 16px;
 	border-left: 10px solid #000;
 	color: #000;
-	font-weight: 700;	
+	font-weight: 700;
 	background-color: aqua;
 }
-.email-btn{
+
+.email-btn {
 	border: none;
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
@@ -160,36 +186,40 @@ nav ul li a:hover{
 	border-radius: 5px;
 	background-color: #000;
 }
-.email-btn:hover{
+
+.email-btn:hover {
 	color: #fff;
 	background-color: #00b7c2;
 	transition: all 0.5s ease;
 }
-.about{
+
+.about {
 	font-family: 'Montserrat';
 }
-.about:hover{
+
+.about:hover {
 	border-bottom: 8px solid aqua;
 	transition: all 0.3s ease;
 	font-weight: bold;
 }
 
 /*#00a86b*/
-#metext{
-	font-family: 'Montserrat',cursive !important;
+#metext {
+	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	line-height: 22px;
 	padding: 35px 35px 65px 35px;
-	font-weight: bold;
+	font-weight: bolder;
 	word-spacing: 2px;
 	justify-content: space-between;
 }
 
-.footer-name:hover{
+.footer-name:hover {
 	color: #00b7c2;
 	font-weight: bold;
 }
-.view-btn{
+
+.view-btn {
 	border: 1px solid white;
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
@@ -197,26 +227,29 @@ nav ul li a:hover{
 	border-radius: 5px;
 	background-color: #000;
 }
-.view-btn:hover{
+
+.view-btn:hover {
 	border: 1px solid black;
 	color: #000;
 	background-color: #fff;
 	transition: all 0.7s ease;
 }
-.mouseon:hover{
+
+.mouseon:hover {
 	background: #49a09d;
 	color: black;
 	border-radius: 15px;
 	cursor: pointer;
-	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 	transition: 10s ease-in-out;
 }
 
-div.row,div.container {
+div.row,
+div.container {
 	border: 0;
-  }
+}
 
-#loading{
+#loading {
 	position: fixed;
 	width: 100%;
 	height: 100vh;
@@ -224,92 +257,127 @@ div.row,div.container {
 	z-index: 9999;
 }
 
-.wrapper{
-    display: flex;
+.wrapper {
+	display: flex;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 	padding: 320px 0;
 }
 
-.circle{
-    border-radius: 50%;
-    background-color: #fff;
-    margin: 10px;
-    height: 25px;
-    width: 25px;
-    animation: bounce 1.5s infinite ease;
+.circle {
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 10px;
+	height: 25px;
+	width: 25px;
+	animation: bounce 1.5s infinite ease;
 }
 
-.circle--4{
-    animation-delay: .4s;
+.circle--4 {
+	animation-delay: .4s;
 }
-.circle--3{
-    animation-delay: .3s;
+
+.circle--3 {
+	animation-delay: .3s;
 }
-.circle--2{
-    animation-delay: .2s;
+
+.circle--2 {
+	animation-delay: .2s;
 }
 
 @keyframes bounce {
-    0%, 100% { opacity:1;}
-  
-    60% {
-        transform: translateY(15px);
-        opacity:.0;
-    }
+
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	60% {
+		transform: translateY(15px);
+		opacity: .0;
+	}
 }
 
 
-@keyframes blink{
-	0% {opacity: 1;}
-	50% {opacity: 0;}
-	100% {opacity: 1;}
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
-@-webkit-keyframes blink{
-	0% {opacity: 1;}
-	50% {opacity: 0;}
-	100% {opacity: 1;}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
-@-moz-keyframes blink{
-	0% {opacity: 1;}
-	50% {opacity: 0;}
-	100% {opacity: 1;}
+
+@-moz-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 /* Tablet Screens */
-@media only screen and (max-width: 1280px){
-	.profile-pic{
+@media only screen and (max-width: 1280px) {
+	.profile-pic {
 		width: 250px;
 		height: 250px;
 		position: absolute;
 		top: 140px;
 		left: 100px;
 	}
-	.hello{
+
+	.hello {
 		font-family: 'Pacifico', cursive;
 		position: absolute;
 		top: 140px;
 		left: 500px;
 		color: aquamarine;
-		font-size:40px;
+		font-size: 40px;
 		font-weight: 700;
 	}
-	.hello-name{
+
+	.hello-name {
 		font-family: 'Monoton', cursive;
 		position: absolute;
 		top: 220px;
 		left: 500px;
 		color: aquamarine;
-		font-size:60px;
+		font-size: 60px;
 		font-weight: 700;
 	}
-	.click{
+
+	.click {
 		position: absolute;
 		top: 350px;
 		left: 700px;
 		padding: 19px 22px;
 		transition: all 0.2s ease;
-		
+
 	}
 }
 
@@ -317,98 +385,107 @@ div.row,div.container {
 /* For Small Screens */
 
 @media only screen and (max-width: 768px) {
- .myname{
-	font-weight: 700;
-	font-size: 34px;
-}
-.surname{
-	font-weight: 700;
-	font-size: 25px;
-	color: #848ccf;
-}
+	.myname {
+		font-weight: 700;
+		font-size: 34px;
+	}
 
-.navbar-toggler-icon{
-	color: #fff !important;
-	border-radius: 3px;
-	background-color: #909090 !important;
-}
+	.surname {
+		font-weight: 700;
+		font-size: 25px;
+		color: #848ccf;
+	}
 
-nav ul li a{
-	color: #909090 !important;
-	background-color: #fff;
-	margin: 0;
+	.navbar-toggler-icon {
+		color: #fff !important;
+		border-radius: 3px;
+		background-color: #909090 !important;
+	}
 
-}
-nav ul li a:hover{
-	color: #000 !important;
-	
-	margin: 0;
+	nav ul li a {
+		color: #909090 !important;
+		background-color: #fff;
+		margin: 0;
 
-}
-.active{
-	border-left: 8px solid aqua;
-	color: black !important;
-}
-.hero-image{
-	height: 570px;
-}
-.profile-pic{
-	width: 190px;
-	height: 200px;
-	position: absolute;
-	top: 100px;
-	left: 50%;
-	margin-left: -95px;
-	
-}
+	}
 
-.hello{
-	font-family: 'Pacifico', cursive;
-	position: absolute;
-	top: 320px;
-	left: 30px;
-	color: aquamarine;
-	font-size:32px;
-	font-weight: 700;
-}
-.hello-name{
-	font-family: 'Monoton', cursive;
-	position: absolute;
-	top: 380px;
-	left: 30px;
-	color: aquamarine;
-	font-size:40px;
-	font-weight: 700;
-}
-.click{
-	position: absolute;
-	top: 480px;
-	left: 50%;
-	margin-left: -65px;
-  	padding: 19px 22px;
-  	transition: all 0.2s ease;
-	
-}
+	nav ul li a:hover {
+		color: #000 !important;
 
-.myintro{
-	letter-spacing: 0.3px;
-	line-height: 20px;
-	font-size: 16px;
-	border-left: 10px solid #000;
-	padding: 10px;
-	color: #000;
-	transition: all 0.5s ease;	
-	background-color: aqua;
-}
-.contact-p{
-	font-family: 'Montserrat',cursive;
-	font-size: 14px;
-	text-align: justify;
-}
-#metext{
-	font-family: 'Lobster',cursive;
-	font-size: 20px;
-	line-height: 30px;
-	padding: 20px 15px 40px 15px;
-}
+		margin: 0;
+
+	}
+
+	.active {
+		border-left: 8px solid aqua;
+		color: black !important;
+	}
+
+	.hero-image {
+		height: 570px;
+	}
+
+	.profile-pic {
+		width: 190px;
+		height: 200px;
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		margin-left: -95px;
+
+	}
+
+	.hello {
+		font-family: 'Pacifico', cursive;
+		position: absolute;
+		top: 320px;
+		left: 30px;
+		color: aquamarine;
+		font-size: 32px;
+		font-weight: 700;
+	}
+
+	.hello-name {
+		font-family: 'Monoton', cursive;
+		position: absolute;
+		top: 380px;
+		left: 30px;
+		color: aquamarine;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	.click {
+		position: absolute;
+		top: 480px;
+		left: 50%;
+		margin-left: -65px;
+		padding: 19px 22px;
+		transition: all 0.2s ease;
+
+	}
+
+	.myintro {
+		letter-spacing: 0.3px;
+		line-height: 20px;
+		font-size: 16px;
+		border-left: 10px solid #000;
+		padding: 10px;
+		color: #000;
+		transition: all 0.5s ease;
+		background-color: aqua;
+	}
+
+	.contact-p {
+		font-family: 'Montserrat', cursive;
+		font-size: 14px;
+		text-align: justify;
+	}
+
+	#metext {
+		font-family: 'Lobster', cursive;
+		font-size: 20px;
+		line-height: 30px;
+		padding: 20px 15px 40px 15px;
+	}
 }
